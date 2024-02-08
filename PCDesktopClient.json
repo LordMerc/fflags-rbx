@@ -1,5 +1,5 @@
 {
-    "DFFlagCSGOperationStatisticsGA": false,
+    "DFFlagCSGOperationStatisticsGA": true,
     "DFFlagCSGv2StatisticsFix": true,
     "DFFlagCSGv2UseMegaAssetFetcher": true,
     "DFFlagCheckCoreLocalizationLoading": true,
