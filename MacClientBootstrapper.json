@@ -1,94 +1,370 @@
-{
-    "DFStringHttpInfluxDatabase": "roblox_bootstrapper",
-    "FIntBootstrapperLaunchBehaviorABTest": 2,
-    "FIntInfluxReportExceptionPermyriad": 10000,
-    "UseCdn": true,
-    "FFlagWindowsLaunchTypeAnalytics": true,
-    "FFlagBootstrapperQuitOnDirectXExpiration": true,
-    "FStringDisabledRobloxChannelList": "ZReleaseVS2019,Zfeatureboost_removal_test_in_prod,Zbugfixboost-mutex-revert,zfeaturehsr2cdnplaytest2,Zproject512-boost-remove-mutex-1,Zproject516-boost-remove-mutex-network,Zfeatureinstance-parent-weak-ptr,Zfeaturebaseline,Zfeatureinstance-parent-weak-ptr-2,Zfeaturetelemlife,Zfeaturefmod-20115,ZbugfixCLI-54676-test,Zfeaturesubsystematomic,ZbugfixCLI-55214-master,Zfeatureqt5.15,Zfeatureuse-new-rapidjson-in-flag-loading,Zfeaturefmod-recording-test,Zfeaturesubsystemhttpclient,Zfeaturesignalconcurrency,Zfeatureupgrade-lz4,Zxcode13release,ZQTitanStudioRelease,ZQTitanStudioReleaseHighDpi,Zfeatureprepare-shorelines4,zqtcanary,Zfeatureupgrade-libyuv-bento4,ZfeatureLUATOOLS-121-rbxpMoonbeamReleaseTest,Zfeaturewin64_client_deploy_test,ZWinPlayer64,ZProjectQt5159,Zprojectupdate-webrtc-fetch-content,ZFeaturesignaldoublelink,ZProjectnetwork-transport-split",
-    "FFlagBootstrapperSaveOptOutDUAR": true,
-    "FFlagBootstrapperAutoOptIn": true,
-    "FIntBootstrapperInfluxReportHundredthPercentage": 100,
-    "FIntBootstrapperWebView2InstallationTelemetryHundredthPercent": 10000,
-    "FIntInstallWebView2RuntimeTimeoutMs": 1200000,
-    "FIntMacBootstrapperWaitMillisecondsForClientTermination": 500,
-    "FFlagDisableLegacyChannelSelection": true,
-    "FFlagMacBootstrapperUniqueDownloadDir": true,
-    "FFlagStudioExportSVGTextures": true,
-    "FFlagStudioFixSameVersionChannelUpdateProblem": true,
-    "FFlagFileDeployerPathLimitFix": true,
-    "FFlagTrackMacWebLaunchFlow": true,
-    "FFlagTrackWinWebLaunchFlow": true,
-    "FFlagDoNotUseInternetExplorerElevationPolicyRegistry": true,
-    "FFlagEnableCleanPreviousDownloadCacheFolder": true,
-    "FFlagEnableSeparateDownloadCacheFolder": true,
-    "FFlagFileDeletionPathLimitFix": true,
-    "FFlagCreateDirectoryRecursivelyWin32": true,
-    "FFlagUseNewErrorDescriptionFunction": true,
-    "FFlagRobloxPlayerInstallWebView2Runtime": true,
-    "DFFlagEnableTelemetryAppNameOverride": true,
-    "FFlagClearCachedChannelOnLaunch": true,
-    "FFlagClearCachedChannelOnLaunchZFlagOnly": true,
-    "FFlagWindowsBootstrapperStaticCdn": true,
-    "FFlagMacBootstrapperStaticCdn": true,
-    "FFlagMacOSInstallerUseStaticCdn": true,
-    "DFFlagDeeplinkShouldPassToExistingClient": true,
-    "FFlagWinBootstrapperVistaToolRemoval": true,
-    "FFlagBootstrapperHasSeparatedPkgManifest": true,
-    "FFlagRemoveDeployBootstrapper": true,
-    "FFlagRemoveDeployBootstrapper2": true,
-    "FFlagDisableInstallStudioBootstrapperFromClient": true,
-    "FFlagMacBootsrapperFirstStudioLaunchTelem": true,
-    "FFlagWriteRegisteredApplicationsByProtocolName": true,
-    "FFlagDeploymentHasBootstrapperManifest": true,
-    "FFlagDeploymentHasInstallerManifest": true,
-    "FFlagDeploymentHasMultipleFileTypes": true,
-    "FFlagDisableWindowsClientUpdateFromWebLaunch": true,
-    "FFlagMacChannelFromPathOnly": true,
-    "FFlagMacInstallerStartClient": true,
-    "FFlagMacInstallerVersionGuidParam": true,
-    "FFlagUseClientAsProtocolHandler": true,
-    "FFlagUseNewWindowsUninstaller": true,
-    "FFlagMacInstallerRetryTerminateCheck2": true,
-    "FFlagMacBootstrapperIgnore401": true,
-    "FFlagMacInstallerFirstLaunchArgument": true,
-    "FFlagHttpGetSyncUseNativeRetry": true,
-    "FFlagHttpPostSyncUseNativeRetry": true,
-    "FFlagEnableMultipleProcessTermination": true,
-    "FFlagWindowsStudioPassLaunchIntent2": true,
-    "FIntInstallerFileTaskThreadCount": 3,
-    "DFIntHttpResponseDefaultTimeoutMillis": 300000,
-    "FFlagMacBootstrapperEnableDeployPathExtensionForCJV": true,
-    "FFlagMacInstallerEnableDeployPathExtensionForCJV": true,
-    "FFlagMacSupportCJVChannels": true,
-    "FFlagWinInstallerEnableDeployPathExtensionForCJV": true,
-    "FFlagWinInstallerUseDeployPathExtension": true,
-    "FFlagWindowsBootstrapperDeployPathExtensionForCJV": true,
-    "FFlagRemoveSuccessDialogMacStudio": true,
-    "FFlagWindowsInstallerUseNativeHttp2": true,
-    "FFlagMacInstallerProtocolStringParam": true,
-    "FFlagMacBootstrapperReportClientUpdateInfo": true,
-    "FFlagMacInstallerReportClientInstallInfo": true,
-    "FFlagMacBootstrapperUseDeployPathExtension": true,
-    "FFlagMacInstallerUseDeployPathExtension": true,
-    "DFIntCrashUploadToBacktracePercentage": 10,
-    "DeprecatedOSXLinkURL": "https://en.help.roblox.com/hc/articles/203312800",
-    "DeprecatedOSXMinorVersion": 9,
-    "ExeVersion": "0.368.0.271345",
-    "FFlagJoinTimeCounters": true,
-    "FStringWindowsClientBoostrapperClientEarlyFlags": "",
-    "GoogleAnalyticsAccountPropertyID": "UA-43420590-16",
-    "InfluxHundredthsPercentage": "0",
-    "InfluxInstallHundredthsPercentage": 10000,
-    "ShowInstallSuccessPrompt": true,
-    "FStringMacPlayerUnsupportedOSDeadline": "2021-10-06",
-    "DeprecatedOSXMajorVersion": 10,
-    "FFlagEnableRandomRobloxChannelSelection": true,
-    "FFlagEnableDeepLinkUseExistingClient": true,
-    "FFlagEnableSingleInstanceRobloxClient": true,
-    "FStringClientChannelProbabilityString": "1000;zflag=50",
-    "FStringFlagRepoGitHashFastString": "a1bcc23048ca8db809fc4f221b4aa307d48a9aae",
-    "DFStringFlagRepoGitHashDynamicString": "a1bcc23048ca8db809fc4f221b4aa307d48a9aae",
-    "FStringFlipTimeStampFastString": "2024-02-08T02:28:36.319Z",
-    "DFStringFlipTimeStampDynamicString": "2024-02-08T02:28:36.319Z"
-}
+[
+    {
+        "flag": "DFStringHttpInfluxDatabase",
+        "value": "roblox_bootstrapper"
+    },
+    {
+        "flag": "FIntBootstrapperLaunchBehaviorABTest",
+        "value": 2
+    },
+    {
+        "flag": "FIntInfluxReportExceptionPermyriad",
+        "value": 10000
+    },
+    {
+        "flag": "UseCdn",
+        "value": true
+    },
+    {
+        "flag": "FFlagWindowsLaunchTypeAnalytics",
+        "value": true
+    },
+    {
+        "flag": "FFlagBootstrapperQuitOnDirectXExpiration",
+        "value": true
+    },
+    {
+        "flag": "FStringDisabledRobloxChannelList",
+        "value": "ZReleaseVS2019,Zfeatureboost_removal_test_in_prod,Zbugfixboost-mutex-revert,zfeaturehsr2cdnplaytest2,Zproject512-boost-remove-mutex-1,Zproject516-boost-remove-mutex-network,Zfeatureinstance-parent-weak-ptr,Zfeaturebaseline,Zfeatureinstance-parent-weak-ptr-2,Zfeaturetelemlife,Zfeaturefmod-20115,ZbugfixCLI-54676-test,Zfeaturesubsystematomic,ZbugfixCLI-55214-master,Zfeatureqt5.15,Zfeatureuse-new-rapidjson-in-flag-loading,Zfeaturefmod-recording-test,Zfeaturesubsystemhttpclient,Zfeaturesignalconcurrency,Zfeatureupgrade-lz4,Zxcode13release,ZQTitanStudioRelease,ZQTitanStudioReleaseHighDpi,Zfeatureprepare-shorelines4,zqtcanary,Zfeatureupgrade-libyuv-bento4,ZfeatureLUATOOLS-121-rbxpMoonbeamReleaseTest,Zfeaturewin64_client_deploy_test,ZWinPlayer64,ZProjectQt5159,Zprojectupdate-webrtc-fetch-content,ZFeaturesignaldoublelink,ZProjectnetwork-transport-split"
+    },
+    {
+        "flag": "FFlagBootstrapperSaveOptOutDUAR",
+        "value": true
+    },
+    {
+        "flag": "FFlagBootstrapperAutoOptIn",
+        "value": true
+    },
+    {
+        "flag": "FIntBootstrapperInfluxReportHundredthPercentage",
+        "value": 100
+    },
+    {
+        "flag": "FIntBootstrapperWebView2InstallationTelemetryHundredthPercent",
+        "value": 10000
+    },
+    {
+        "flag": "FIntInstallWebView2RuntimeTimeoutMs",
+        "value": 1200000
+    },
+    {
+        "flag": "FIntMacBootstrapperWaitMillisecondsForClientTermination",
+        "value": 500
+    },
+    {
+        "flag": "FFlagDisableLegacyChannelSelection",
+        "value": true
+    },
+    {
+        "flag": "FFlagMacBootstrapperUniqueDownloadDir",
+        "value": true
+    },
+    {
+        "flag": "FFlagStudioExportSVGTextures",
+        "value": true
+    },
+    {
+        "flag": "FFlagStudioFixSameVersionChannelUpdateProblem",
+        "value": true
+    },
+    {
+        "flag": "FFlagFileDeployerPathLimitFix",
+        "value": true
+    },
+    {
+        "flag": "FFlagTrackMacWebLaunchFlow",
+        "value": true
+    },
+    {
+        "flag": "FFlagTrackWinWebLaunchFlow",
+        "value": true
+    },
+    {
+        "flag": "FFlagDoNotUseInternetExplorerElevationPolicyRegistry",
+        "value": true
+    },
+    {
+        "flag": "FFlagEnableCleanPreviousDownloadCacheFolder",
+        "value": true
+    },
+    {
+        "flag": "FFlagEnableSeparateDownloadCacheFolder",
+        "value": true
+    },
+    {
+        "flag": "FFlagFileDeletionPathLimitFix",
+        "value": true
+    },
+    {
+        "flag": "FFlagCreateDirectoryRecursivelyWin32",
+        "value": true
+    },
+    {
+        "flag": "FFlagUseNewErrorDescriptionFunction",
+        "value": true
+    },
+    {
+        "flag": "FFlagRobloxPlayerInstallWebView2Runtime",
+        "value": true
+    },
+    {
+        "flag": "DFFlagEnableTelemetryAppNameOverride",
+        "value": true
+    },
+    {
+        "flag": "FFlagClearCachedChannelOnLaunch",
+        "value": true
+    },
+    {
+        "flag": "FFlagClearCachedChannelOnLaunchZFlagOnly",
+        "value": true
+    },
+    {
+        "flag": "FFlagWindowsBootstrapperStaticCdn",
+        "value": true
+    },
+    {
+        "flag": "FFlagMacBootstrapperStaticCdn",
+        "value": true
+    },
+    {
+        "flag": "FFlagMacOSInstallerUseStaticCdn",
+        "value": true
+    },
+    {
+        "flag": "DFFlagDeeplinkShouldPassToExistingClient",
+        "value": true
+    },
+    {
+        "flag": "FFlagWinBootstrapperVistaToolRemoval",
+        "value": true
+    },
+    {
+        "flag": "FFlagBootstrapperHasSeparatedPkgManifest",
+        "value": true
+    },
+    {
+        "flag": "FFlagRemoveDeployBootstrapper",
+        "value": false
+    },
+    {
+        "flag": "FFlagRemoveDeployBootstrapper2",
+        "value": true
+    },
+    {
+        "flag": "FFlagDisableInstallStudioBootstrapperFromClient",
+        "value": false
+    },
+    {
+        "flag": "FFlagMacBootsrapperFirstStudioLaunchTelem",
+        "value": true
+    },
+    {
+        "flag": "FFlagWriteRegisteredApplicationsByProtocolName",
+        "value": true
+    },
+    {
+        "flag": "FFlagDeploymentHasBootstrapperManifest",
+        "value": true
+    },
+    {
+        "flag": "FFlagDeploymentHasInstallerManifest",
+        "value": true
+    },
+    {
+        "flag": "FFlagDeploymentHasMultipleFileTypes",
+        "value": true
+    },
+    {
+        "flag": "FFlagDisableWindowsClientUpdateFromWebLaunch",
+        "value": true
+    },
+    {
+        "flag": "FFlagMacChannelFromPathOnly",
+        "value": true
+    },
+    {
+        "flag": "FFlagMacInstallerStartClient",
+        "value": true
+    },
+    {
+        "flag": "FFlagMacInstallerVersionGuidParam",
+        "value": true
+    },
+    {
+        "flag": "FFlagUseClientAsProtocolHandler",
+        "value": true
+    },
+    {
+        "flag": "FFlagUseNewWindowsUninstaller",
+        "value": true
+    },
+    {
+        "flag": "FFlagMacInstallerRetryTerminateCheck2",
+        "value": true
+    },
+    {
+        "flag": "FFlagMacBootstrapperIgnore401",
+        "value": true
+    },
+    {
+        "flag": "FFlagMacInstallerFirstLaunchArgument",
+        "value": true
+    },
+    {
+        "flag": "FFlagHttpGetSyncUseNativeRetry",
+        "value": true
+    },
+    {
+        "flag": "FFlagHttpPostSyncUseNativeRetry",
+        "value": true
+    },
+    {
+        "flag": "FFlagEnableMultipleProcessTermination",
+        "value": true
+    },
+    {
+        "flag": "FFlagWindowsStudioPassLaunchIntent2",
+        "value": true
+    },
+    {
+        "flag": "FIntInstallerFileTaskThreadCount",
+        "value": 3
+    },
+    {
+        "flag": "DFIntHttpResponseDefaultTimeoutMillis",
+        "value": 300000
+    },
+    {
+        "flag": "FFlagMacBootstrapperEnableDeployPathExtensionForCJV",
+        "value": true
+    },
+    {
+        "flag": "FFlagMacInstallerEnableDeployPathExtensionForCJV",
+        "value": true
+    },
+    {
+        "flag": "FFlagMacSupportCJVChannels",
+        "value": true
+    },
+    {
+        "flag": "FFlagWinInstallerEnableDeployPathExtensionForCJV",
+        "value": true
+    },
+    {
+        "flag": "FFlagWinInstallerUseDeployPathExtension",
+        "value": true
+    },
+    {
+        "flag": "FFlagWindowsBootstrapperDeployPathExtensionForCJV",
+        "value": true
+    },
+    {
+        "flag": "FFlagRemoveSuccessDialogMacStudio",
+        "value": true
+    },
+    {
+        "flag": "FFlagWindowsInstallerUseNativeHttp2",
+        "value": true
+    },
+    {
+        "flag": "FFlagMacInstallerProtocolStringParam",
+        "value": true
+    },
+    {
+        "flag": "FFlagMacBootstrapperReportClientUpdateInfo",
+        "value": true
+    },
+    {
+        "flag": "FFlagMacInstallerReportClientInstallInfo",
+        "value": true
+    },
+    {
+        "flag": "FFlagMacBootstrapperUseDeployPathExtension",
+        "value": true
+    },
+    {
+        "flag": "FFlagMacInstallerUseDeployPathExtension",
+        "value": true
+    },
+    {
+        "flag": "DFIntCrashUploadToBacktracePercentage",
+        "value": 10
+    },
+    {
+        "flag": "DeprecatedOSXLinkURL",
+        "value": "https://en.help.roblox.com/hc/articles/203312800"
+    },
+    {
+        "flag": "DeprecatedOSXMinorVersion",
+        "value": 9
+    },
+    {
+        "flag": "ExeVersion",
+        "value": "0.368.0.271345"
+    },
+    {
+        "flag": "FFlagJoinTimeCounters",
+        "value": true
+    },
+    {
+        "flag": "FStringWindowsClientBoostrapperClientEarlyFlags",
+        "value": ""
+    },
+    {
+        "flag": "GoogleAnalyticsAccountPropertyID",
+        "value": "UA-43420590-16"
+    },
+    {
+        "flag": "InfluxHundredthsPercentage",
+        "value": "0"
+    },
+    {
+        "flag": "InfluxInstallHundredthsPercentage",
+        "value": 10000
+    },
+    {
+        "flag": "ShowInstallSuccessPrompt",
+        "value": true
+    },
+    {
+        "flag": "FStringMacPlayerUnsupportedOSDeadline",
+        "value": "2021-10-06"
+    },
+    {
+        "flag": "DeprecatedOSXMajorVersion",
+        "value": 10
+    },
+    {
+        "flag": "FFlagEnableRandomRobloxChannelSelection",
+        "value": true
+    },
+    {
+        "flag": "FFlagEnableDeepLinkUseExistingClient",
+        "value": true
+    },
+    {
+        "flag": "FFlagEnableSingleInstanceRobloxClient",
+        "value": true
+    },
+    {
+        "flag": "FStringClientChannelProbabilityString",
+        "value": "1000;zflag=50"
+    },
+    {
+        "flag": "FStringFlagRepoGitHashFastString",
+        "value": "a1bcc23048ca8db809fc4f221b4aa307d48a9aae"
+    },
+    {
+        "flag": "DFStringFlagRepoGitHashDynamicString",
+        "value": "a1bcc23048ca8db809fc4f221b4aa307d48a9aae"
+    },
+    {
+        "flag": "FStringFlipTimeStampFastString",
+        "value": "2024-02-08T02:28:36.319Z"
+    },
+    {
+        "flag": "DFStringFlipTimeStampDynamicString",
+        "value": "2024-02-08T02:28:36.319Z"
+    }
+]
